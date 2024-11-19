@@ -77,3 +77,11 @@ const grid2 = [
 ]
 
 console.log(rottingOranges(grid2)); // Output: -1
+
+const grid3 = [
+    [2,1,1],
+    [1,1,1],
+    [0,1,2]
+]
+
+console.log(rottingOranges(grid3)); // Output: 2
