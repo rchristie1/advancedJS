@@ -76,9 +76,6 @@ function isDirectReport(person, manager, employee) {
           output = true
           break
         }
-        {
-          break
-        }
       } else {
         if (node.left) queue.push(node.left)
         if (node.right) queue.push(node.right)
